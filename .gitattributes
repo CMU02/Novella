@@ -1,0 +1,5 @@
+* text=auto eol=lf
+
+# Windows 스크립트(gradlew.bat 등)는 CRLF가 필요하다
+*.bat text eol=crlf
+*.cmd text eol=crlf
